@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import img from '../../public/icon.jpeg';
 import { MdOutlineMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-scroll";
 
 function Navbar() {
     const [menu, SetMenu] = useState(false);
@@ -40,7 +41,14 @@ function Navbar() {
                         <ul className='md:flex hidden space-x-8'>
                             {
                                 navItems.map(({ id, text }) => (
-                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>{text}</li>
+                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>
+                                  <Link to={text}
+                                        smooth={true}
+                                        duration={500}
+                                        offset={-70}
+                                        activeClass='active'
+                                  >{text}</Link>  
+                                    </li>
                                 ))
                             }
 
@@ -54,11 +62,19 @@ function Navbar() {
                 {/* Mobile Navbar */}
                 {
                     !menu && (
-                        <div>
+                        <div className='bg-white'>
                             <ul className='flex flex-col h-screen justify-center items-center md:hidden space-y-3 text-xl'>
                             {
                                 navItems.map(({ id, text }) => (
-                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>{text}</li>
+                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>
+                                        <Link to={text}
+                                         onClick={() => SetMenu(!menu)}
+                                        smooth={true}
+                                        duration={500}
+                                        offset={-70}
+                                        activeClass='active'
+                                    >{text}</Link>  
+                                        </li>
                                 ))
                             }
                             </ul>

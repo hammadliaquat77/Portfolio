@@ -37,7 +37,7 @@ function Porttfolio() {
 
     return (
         <>
-            <div className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
+            <div name='Portfolio' className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
                 <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>Portfolio</h1>
                 <span className='underline font-semibold '>Features Projects</span>
 

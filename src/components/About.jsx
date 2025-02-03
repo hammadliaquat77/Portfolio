@@ -4,7 +4,7 @@ import pic from '../../public/about.png';
 function About() {
   return (
     <>
-      <div className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
+      <div name='About' className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
         <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>About Us</h1>
         <div className='flex flex-col md:flex-row'>
           <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-1 md:order-1'>

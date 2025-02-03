@@ -68,13 +68,14 @@ function Experiance() {
                                 <div className="fill-violet-500">
                                     <img src={logo} alt="" className='w-[150px] rounded-full' />
                                 </div>
-                                <h1 className="font-bold text-xl">{name}</h1>
+                                <h1 className="font-bold text-xl text-center">{name}</h1>
                             </div>
                         ))
                     }
                 </div>
 
             </div>
+            <hr />
         </>
     )
 }

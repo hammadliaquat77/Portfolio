@@ -61,7 +61,7 @@ function Porttfolio() {
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga
                                     adipisicing elit
                                 </p>
-                                <div className='justify-around space-x-3'>
+                                <div className='justify-around space-x-2'>
                                     <button className='bg-blue-600 text-white font-semibold px-4 py-2  rounded-lg'>Video</button>
                                     <button className='bg-green-600 text-white font-semibold px-4 py-2 rounded-lg'>Source Code</button>
                                 </div>

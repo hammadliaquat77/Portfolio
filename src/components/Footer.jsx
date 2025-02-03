@@ -17,9 +17,9 @@ function Footer() {
                 <FaInstagram size={24} />
                 <FaGithub size={24} />
             </div>
-            <div className='flex flex-col items-center mt-8 border-t border-gray-700 pt-8'>
+            <div className='flex flex-col items-center justify-center mt-8 border-t border-gray-700 pt-8'>
               <p>&copy; 2024 Your Company. All rights reserved.</p>
-              <p className="text-sm">Supportive Partner ❤️ Hammad Raza</p>
+              <p className="text-sm ">Supportive Partner ❤️ Hammad Raza</p>
             </div>
         </div>
      </div>

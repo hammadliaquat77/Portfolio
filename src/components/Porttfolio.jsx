@@ -1,12 +1,15 @@
 import React from 'react'
 import pic from '../../public/express.png';
+import Doctor from '../../public/Doctor.png';
+
 
 function Porttfolio() {
     const cardItems = [
         {
             id: 1,
-            logo: pic,
-            name: "MongoDB",
+            logo: Doctor,
+            name: "Doctor Appoinments",
+            live: href = "https://doctor-appoinment-two.vercel.app/"
         },
         {
             id: 2,
@@ -53,8 +56,8 @@ function Porttfolio() {
                                 <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
                                     <p className="absolute bottom-6 left-7 text-white text-2xl">{`0${id}`}</p>
                                 </div>
-                                <div className="fill-violet-500 w-[120px] h-[120px]">
-                                    <img src={logo} alt="" />
+                                <div className="fill-violet-500">
+                                    <img src={logo} alt="" className='w-[120px] h-[120px] rounded-full' />
                                 </div>
                                 <h1 className="font-bold text-xl">{name}</h1>
                                 <p className="text-sm text-zinc-500 leading-6">
@@ -62,7 +65,7 @@ function Porttfolio() {
                                     adipisicing elit
                                 </p>
                                 <div className='justify-around space-y-2'>
-                                    <button className='bg-blue-600 text-white font-semibold px-4 py-2  rounded-lg'>Video</button>
+                                    <button className='bg-blue-600 text-white font-semibold px-4 py-2  rounded-lg'>{live}</button>
                                     <button className='bg-green-600 text-white font-semibold px-4 py-2 rounded-lg'>Source Code</button>
                                 </div>
                             </div>

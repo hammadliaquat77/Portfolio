@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast';
 import './App.css'
 import About from './components/About';
 import Contact from './components/Contact';
@@ -11,6 +12,7 @@ function App() {
 
   return (
   <>
+  <div>
   <Navbar/>
   <Home/>
   <About/>
@@ -18,6 +20,9 @@ function App() {
   <Experiance/>
   <Contact/>
   <Footer/>
+  </div>
+  <Toaster/>
+
 </>
   )
 }

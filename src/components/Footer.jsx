@@ -12,7 +12,7 @@ function Footer() {
         <div className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
           <div className='flex justify-center items-center flex-col'>
             <div className='flex space-x-4'>
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://www.facebook.com/share/1Dj9eMQEZv/" target="_blank">
               <FaFacebook size={24} />
               </a>
               <a href="https://www.linkedin.com/in/hammad-raza77/" target="_blank">

@@ -42,7 +42,7 @@ function Home() {
                                 <h1 className="font-bold text-center ">Available on</h1>
                                 <ul className="flex space-x-5">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
+                                        <a href="https://www.facebook.com/share/1Dj9eMQEZv/" target="_blank">
                                             <FaFacebook className="text-2xl cursor-pointer" target="_blank"/>
                                         </a>
                                     </li>

@@ -31,62 +31,18 @@ function Home() {
 
                         </div>
                         <br />
-                        <p className='text-sm md:text-xl text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate velit aliquid, natus veritatis, facere nisi sit qui temporibus ad, reiciendis corporis nesciunt amet accusamus nam cumque beatae ipsam atque incidunt!</p>
+                        <p className='text-sm md:text-xl text-justify'>
+                        My name is Hammad Liaquat, and I am a fresher Frontend Developer with education up to the 12th grade. I have started my career as a Frontend Developer and have worked with several essential technologies required for the role, including.
+                        </p>
                         <br />
 
                         {/*Social Media Icons  */}
-                        {/* <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0"'>
-
-                            <div className='space-y-2'>
-                                <h1 className='font-bold text-center'>Available on</h1>
-                                <ul className='flex space-x-5 '>
-                                    <li>{ }
-                                        <FaFacebook className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                    <li>
-                                        { }
-                                        <FaInstagramSquare className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                    <li>
-                                        { }
-                                        <FaLinkedin className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                    <li>
-                                        { }
-                                        <FaGithub className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className='space-y-2'>
-                                <h1 className='font-bold text-center'> Currently Working on</h1>
-                                <ul className='flex space-x-5 '>
-                                    <li>
-                                        { }
-                                        <FaReact className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                    <li>
-                                        { }
-                                        <FaNodeJs className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                    <li>
-                                        { }
-                                        <SiExpress className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                    <li>
-                                        { }
-                                        <SiMongodb className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]  cursor-pointer' />
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> */}
-
                         <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
                             <div className="  space-y-2">
                                 <h1 className="font-bold text-center ">Available on</h1>
                                 <ul className="flex space-x-5">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="">
+                                        <a href="https://www.facebook.com/" target="_blank">
                                             <FaFacebook className="text-2xl cursor-pointer" target="_blank"/>
                                         </a>
                                     </li>

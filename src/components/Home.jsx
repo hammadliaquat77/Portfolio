@@ -32,7 +32,7 @@ function Home() {
                         </div>
                         <br />
                         <p className='text-sm md:text-xl text-justify'>
-                        My name is Hammad Liaquat, and I am a fresher Frontend Developer with education up to the 12th grade. I have started my career as a Frontend Developer and have worked with several essential technologies required for the role, including.
+                        My name is Hammad Liaquat, and I am a Frontend Developer with education up to the BSC Computer Science. I have started my career as a Frontend Developer and have worked with several essential technologies required for the role, including.
                         </p>
                         <br />
 

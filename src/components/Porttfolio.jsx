@@ -1,5 +1,6 @@
 import React from 'react'
 // import pic from '../../public/express.png';
+import ecomerce from '../../public/ecomerce.png';
 import Doctor from '../../public/Doctor.png';
 import Move from '../../public/move.png';
 import Quiz from '../../public/Quiz.jpeg';
@@ -19,83 +20,89 @@ function Portfolio() {
     const cardItems = [
         {
             id: 1,
+            logo: ecomerce,
+            name: "Ecomerce Project",
+            live: "https://ecomerce-project-nu.vercel.app/"
+        },
+        {
+            id: 2,
             logo: Doctor,
             name: "Doctor Apoinments",
             live: "https://doctor-appoinment-two.vercel.app/"
         },
         {
-            id: 2,
+            id: 3,
             logo: Move,
             name: "Text-Move",
             live: "https://text-move-game.vercel.app/"
 
         },
         {
-            id: 3,
+            id: 4,
             logo: Quiz,
             name: "Quiz App",
             live: "https://quiz-app-react-js-chi.vercel.app/"
 
         },
         {
-            id: 4,
+            id: 5,
             logo: Signal,
             name: "Trafic Signal",
             live: "https://trafic-signal-light-next-js.vercel.app/"
 
         },
         {
-            id: 5,
+            id: 6,
             logo: Budget,
             name: "Budget App",
             live: "https://budget-tracker-java-script.netlify.app/"
 
         },
         {
-            id: 6,
+            id: 7,
             logo: Counter,
             name: "Counter",
             live: "https://counter-tasbih-js.netlify.app/"
 
         },
         {
-            id: 7,
+            id: 8,
             logo: Background,
             name: "Bg Changer",
             live: "https://react-bg-changer-three.vercel.app/"
         },
         {
-            id: 8,
+            id: 9,
             logo: Calculator,
             name: "Calculator",
             live: "https://react-js-calculator-eight.vercel.app/"
         },
         {
-            id: 9,
+            id: 10,
             logo: Todo,
             name: "Todo List",
             live: "https://todo-list-javascript-by-hammadliaquat.netlify.app/"
         },
         {
-            id: 10,
+            id: 11,
             logo: Toggle,
             name: "Toggle Button",
             live: "https://toggle-light-dark-mode.vercel.app/"
         },
         {
-            id: 11,
+            id: 12,
             logo: Chat,
             name: "Chat App",
             live: "https://chat-app-iota-murex.vercel.app/"
         },
         {
-            id: 12,
+            id: 13,
             logo: Clock,
             name: "Clock",
             live: "https://hammadliaquat77.github.io/Clock-JS/"
         },
         {
-            id: 13,
+            id: 14,
             logo: Ecomerce,
             name: "Ecomerce Cards",
             live: "https://hammadliaquat77.github.io/Ecommerce-Cards-project/"

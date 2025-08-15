@@ -10,13 +10,24 @@ import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import pic from '../../public/express.png';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 function Home() {
+
+    AOS.init({
+        duration: 1000,
+        once: false,
+        mirror: true,
+    });
+
     return (
         <>
             <div name='Home' className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-20'>
                 <div className='flex flex-col md:flex-row'>
-                    <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
+                    <div data-aos="fade-right" className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
                         <span className='text-xl'>Welcome In My PortFolio</span>
                         <div className='flex space-x-1 text-2xl md:text-4xl'>
                             <h1>Hello, I'm a</h1>
@@ -32,7 +43,7 @@ function Home() {
                         </div>
                         <br />
                         <p className='text-sm md:text-xl text-justify'>
-                        My name is Hammad Liaquat, and I am a Frontend Developer with education up to the BSC Computer Science. I have started my career as a Frontend Developer and have worked with several essential technologies required for the role, including.
+                            My name is Hammad Liaquat, and I am a Frontend Developer with education up to the BSC Computer Science. I have started my career as a Frontend Developer and have worked with several essential technologies required for the role, including.
                         </p>
                         <br />
 
@@ -43,7 +54,7 @@ function Home() {
                                 <ul className="flex space-x-5">
                                     <li>
                                         <a href="https://www.facebook.com/share/1Dj9eMQEZv/" target="_blank">
-                                            <FaFacebook className="text-2xl cursor-pointer" target="_blank"/>
+                                            <FaFacebook className="text-2xl cursor-pointer" target="_blank" />
                                         </a>
                                     </li>
                                     <li>
@@ -77,7 +88,7 @@ function Home() {
 
                     </div>
                     {/* Image */}
-                    <div className='md:w-1/2  md:ml-48 md:mt-20 order-1 mt-8'>
+                    <div data-aos="fade-left" className='md:w-1/2  md:ml-48 md:mt-20 order-1 mt-8'>
                         <img src={pic} alt="" className='rounded-full md:h-[450px] md:w-[450px]' />
                     </div>
                 </div>

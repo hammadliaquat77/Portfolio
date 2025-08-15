@@ -3,7 +3,17 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Contact() {
+
+   AOS.init({
+             duration: 1000,
+             once: false,
+             mirror: true,
+         });
+
     const { register, handleSubmit, reset, formState: { errors } } = useForm(); // ✅ Reset function added here
 
     const onSubmit = async (data) => {
@@ -28,7 +38,7 @@ function Contact() {
             <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>Contact Me</h1>
             <p className='mb-10 text-center md:text-left'>Please fill out the form below to contact me.</p>
 
-            <div className="container px-4 mx-auto">
+            <div data-aos="zoom-in-up" className="container px-4 mx-auto">
                 <div className="max-w-md mx-auto px-8 py-6 bg-gray-100 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Contact Us</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>

@@ -16,107 +16,132 @@ import Toggle from "../../public/Toogle.png"
 import Chat from "../../public/Chat-App.jpg"
 import Clock from "../../public/Clock.jpg"
 import Ecomerce from "../../public/Ecomerce.jpg"
+import Resturent from "../../public/resturent.png"
+import Saloon from "../../public/Saloon.png"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Portfolio() {
+
+     AOS.init({
+              duration: 1000,
+              once: false,
+              mirror: true,
+          });
+      
+
     const cardItems = [
         {
             id: 1,
             logo: ecomerce,
-            name: "Ecomerce Project",
+            name: "Ecomerce Landing Page",
             live: "https://ecomerce-project-nu.vercel.app/"
         },
         {
             id: 2,
+            logo: Resturent,
+            name: "Resturent Project",
+            live: "https://resturentwebsites.netlify.app/"
+        },
+        {
+            id: 3,
+            logo: Saloon,
+            name: "Saloon Project",
+            live: "https://salon-website-drab.vercel.app/"
+        },
+        {
+            id: 4,
             logo: dashboard,
             name: "Admin Dashboard",
             live: "https://admin-dashboard-tau-three-27.vercel.app/dashboard"
         },
         {
-            id: 3,
+            id: 5,
             logo: weather,
             name: "Weather App",
             live: "https://weather-app-five-olive-41.vercel.app/"
         },
         {
-            id: 4,
+            id: 6,
             logo: Doctor,
             name: "Doctor Apoinments",
             live: "https://doctor-appoinment-two.vercel.app/"
         },
         {
-            id: 5,
+            id: 7,
             logo: Move,
             name: "Text-Move",
             live: "https://text-move-game.vercel.app/"
 
         },
         {
-            id: 6,
+            id: 8,
             logo: Quiz,
             name: "Quiz App",
             live: "https://quiz-app-react-js-chi.vercel.app/"
 
         },
         {
-            id: 7,
+            id: 9,
             logo: Signal,
             name: "Trafic Signal",
             live: "https://trafic-signal-light-next-js.vercel.app/"
 
         },
         {
-            id: 8,
+            id: 10,
             logo: Budget,
             name: "Budget App",
             live: "https://budget-tracker-java-script.netlify.app/"
 
         },
         {
-            id: 9,
+            id: 11,
             logo: Counter,
             name: "Counter",
             live: "https://counter-tasbih-js.netlify.app/"
 
         },
         {
-            id: 10,
+            id: 12,
             logo: Background,
             name: "Bg Changer",
             live: "https://react-bg-changer-three.vercel.app/"
         },
         {
-            id: 11,
+            id: 13,
             logo: Calculator,
             name: "Calculator",
             live: "https://react-js-calculator-eight.vercel.app/"
         },
         {
-            id: 12,
+            id: 14,
             logo: Todo,
             name: "Todo List",
             live: "https://todo-list-javascript-by-hammadliaquat.netlify.app/"
         },
         {
-            id: 13,
+            id: 15,
             logo: Toggle,
             name: "Toggle Button",
             live: "https://toggle-light-dark-mode.vercel.app/"
         },
         {
-            id: 14,
+            id: 16,
             logo: Chat,
             name: "Chat App",
             live: "https://chat-app-iota-murex.vercel.app/"
         },
         {
-            id: 15,
+            id: 17,
             logo: Clock,
             name: "Clock",
             live: "https://hammadliaquat77.github.io/Clock-JS/"
         },
         {
-            id: 16,
+            id: 18,
             logo: Ecomerce,
             name: "Ecomerce Cards",
             live: "https://hammadliaquat77.github.io/Ecommerce-Cards-project/"
@@ -132,7 +157,7 @@ function Portfolio() {
 
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-3 my-5'>
                     {cardItems.map(({ id, logo, name, live }) => (
-                        <div key={id}
+                        <div data-aos="flip-left" key={id}
                             className="md:w-[280px] md:h-[400px] border-[2px] my-5 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer"
                         >
                             <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">

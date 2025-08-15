@@ -8,8 +8,18 @@ import Next from '../../public/next.png'
 import Mongodb from '../../public/mongo.png'
 import Tailwind from '../../public/tailwind.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function Experiance() {
+
+    AOS.init({
+              duration: 1000,
+              once: false,
+              mirror: true,
+          });
+
     const cardItems = [
         {
             id: 1,
@@ -62,7 +72,7 @@ function Experiance() {
 
                     {
                         cardItems.map(({ id, logo, name }) => (
-                            <div key={id}
+                            <div data-aos="flip-up" key={id}
                                 className="md:h-[200px] md:w-[200px] flex flex-col items-center justify-center rounded-full border-[2px] my-5 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer"
                             >
                                 <div className="fill-violet-500">

@@ -182,7 +182,7 @@ function Portfolio() {
 
     return (
         <>
-            <div name='Portfolio' className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
+            {/* <div name='Portfolio' className='max-w-screen-2xl mx-auto container px-4 md:px-20 py-16 dark:bg-gray-900 dark:text-white'>
                 <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>Portfolio</h1>
                 <span className='underline font-semibold '>Features Projects</span>
 
@@ -191,7 +191,7 @@ function Portfolio() {
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-3 my-5'>
                     {cardItems.slice(0, visible).map(({ id, logo, name, discription, live }) => (
                         <div data-aos="flip-left" key={id}
-                            className="md:w-[280px] md:h-[400px] border-[2px] my-5 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer"
+                            className="md:w-[280px] md:h-[400px] border-[2px] my-5 bg-white dark:bg-slate-500 shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer"
                         >
                             <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
                                 <p className="absolute bottom-6 left-7 text-white text-2xl">{`${id}`}</p>
@@ -234,8 +234,50 @@ function Portfolio() {
                     )
                     }
                 </div>
+            </div> */}
+            <div name='Portfolio' className='max-w-screen-2xl mx-auto container px-4 md:px-20 py-16 bg-white dark:bg-gray-900 dark:text-white'>
+    <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>Portfolio</h1>
+    <span className='underline font-semibold text-gray-800 dark:text-gray-300'>Features Projects</span>
+
+    <p className='my-5 text-zinc-500 font-semibold dark:text-gray-400'>
+        I have created some projects for my portfolio. Here are some of the projects that I have created.
+    </p>
+
+    <div className='grid grid-cols-1 md:grid-cols-4 gap-3 my-5'>
+        {cardItems.slice(0, visible).map(({ id, logo, name, discription, live }) => (
+            <div key={id}
+                data-aos="flip-left"
+                className="md:w-[280px] md:h-[400px] border-[2px] my-5 bg-white dark:bg-gray-700 dark:border-gray-600 shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer"
+            >
+                <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                    <p className="absolute bottom-6 left-7 text-white text-2xl">{id}</p>
+                </div>
+                <div className="fill-violet-500">
+                    <img src={logo} alt={name} className='w-[120px] h-[120px] border-2 rounded-full object-cover' />
+                </div>
+                <h1 className="font-bold text-xl dark:text-white">{name}</h1>
+                <p className="text-sm text-zinc-500 leading-6 dark:text-gray-300">{discription}</p>
+                <div className='justify-around space-y-2'>
+                    <button
+                        onClick={() => window.open(live, '_blank')}
+                        className='bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg'
+                    >
+                        Preview
+                    </button>
+                </div>
             </div>
-            <hr />
+        ))}
+    </div>
+
+    <div className='flex justify-end'>
+        {visible < cardItems.length ? (
+            <button onClick={() => setVisible(visible + 4)} className='bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg'>See All</button>
+        ) : (
+            <button onClick={() => setVisible(4)} className='bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg'>See less</button>
+        )}
+    </div>
+</div>
+<hr />
         </>
     )
 }

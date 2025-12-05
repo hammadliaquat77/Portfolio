@@ -9,7 +9,7 @@ import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 
-import pic from '../assets/express.png';
+// import pic from '../assets/Hammad.jpg';
 import Hammad from '../assets/HammadSocial.jpg';
 
 import AOS from 'aos';
@@ -27,7 +27,7 @@ function Home() {
 
     return (
         <>
-            <div name='Home' className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-20 dark:bg-gray-900 dark:text-white'>
+            <div name='Home' className='max-w-screen-2xl mx-auto container px-4 md:px-20 py-20 dark:bg-gray-900 dark:text-white'>
                 <div className='flex flex-col md:flex-row'>
                     <div data-aos="fade-right" className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
                         <span className='text-xl'>Welcome In My PortFolio</span>

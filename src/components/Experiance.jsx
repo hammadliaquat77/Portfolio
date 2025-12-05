@@ -76,7 +76,7 @@ function Experiance() {
     ];
     return (
         <>
-            <div name='Experiance' className='max-w-screen-2xl mx-auto container px-4 md:px-20 my-16'>
+            <div name='Experiance' className='max-w-screen-2xl mx-auto container px-4 md:px-20 py-16 dark:bg-slate-900 dark:text-white'>
                 <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>Experiance</h1>
                 <p>I have more than half year of Experiance in below technologies.</p>
 
@@ -85,19 +85,19 @@ function Experiance() {
                     {
                         cardItems.map(({ id, logo, name }) => (
                             <div data-aos="flip-up" key={id}
-                                className="md:h-[200px] md:w-[200px] flex flex-col items-center justify-center rounded-full border-[2px] my-5 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer"
+                                className="md:h-[200px] md:w-[200px] flex flex-col items-center justify-center rounded-full border-[2px] my-5 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden hover:scale-110 duration-300 cursor-pointer dark:bg-gray-800 dark:border-gray-700"
                             >
                                 <div className="fill-violet-500">
                                     <img src={logo} alt="" className='w-[150px] rounded-full' />
                                 </div>
-                                <h1 className="font-bold text-xl text-center">{name}</h1>
+                                <h1 className="font-bold text-xl text-center dark:text-white">{name}</h1>
                             </div>
                         ))
                     }
                 </div>
 
             </div>
-            <hr />
+          <hr />
         </>
     )
 }

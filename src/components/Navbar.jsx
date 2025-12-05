@@ -119,7 +119,7 @@ function Navbar() {
     ];
 
     return (
-        <div className='max-w-screen-2xl mx-auto container px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white  transition-colors duration-300'>
+        <div className='max-w-screen-2xl mx-auto container px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 dark:text-white transition-colors duration-300'>
             <div className='flex justify-between items-center h-16'>
                 {/* Logo */}
                 <div className='flex space-x-2 items-center'>

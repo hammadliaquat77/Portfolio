@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Porttfolio from './components/Porttfolio';
 
-import { DarkModeProvider } from './context/DarkModeContext';
+import { DarkModeProvider } from './context/DarkModeContext'
 
 function App() {
 
@@ -16,7 +16,6 @@ function App() {
   return (
   <>
   <DarkModeProvider>
-
   <div>
   <Navbar/>
   <Home/>

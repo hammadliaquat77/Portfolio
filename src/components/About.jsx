@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from '../../public/about.png';
+import pic from '../assets/about.png';
 
 
 import AOS from 'aos';

@@ -96,7 +96,7 @@
 
 
 import React, { useContext, useState } from 'react';
-import img from '../../public/icon.jpeg';
+import img from '../assets/icon.jpeg';
 import { MdOutlineMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { MdLightMode, MdDarkMode } from "react-icons/md"; 

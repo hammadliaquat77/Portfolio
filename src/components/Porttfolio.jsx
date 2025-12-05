@@ -1,26 +1,26 @@
 import React, { useState } from 'react'
-// import pic from '../../public/express.png';
-import ecomerce from '../../public/ecomerce.png';
-import dashboard from '../../public/dashboard.png';
-import weather from '../../public/weather_app.png';
-import Doctor from '../../public/Doctor.png';
-import Move from '../../public/move.png';
-import Quiz from '../../public/Quiz.jpeg';
-import Signal from '../../public/signal.png';
-import Budget from '../../public/budjet.jpeg';
-import Counter from '../../public/counter.png';
-import Calculator from '../../public/calculator.png';
-import Todo from '../../public/todo.png';
-import Background from '../../public/background.jpeg';
-import Toggle from "../../public/Toogle.png"
-import Chat from "../../public/Chat-App.jpg"
-import Clock from "../../public/Clock.jpg"
-import Mobile_ecomerce from "../../public/Mobile_Acce.png"
-import Saloon from "../../public/Saloon.png"
-import Uk_Odering from "../../public/Ukodering.png"
-import Burger from "../../public/BurgerImage.png"
-import Resturent from "../../public/Resturent.png"
-import Bur from "../../public/Bur.png"
+// import pic from '../assets/express.png';
+import ecomerce from '../assets/ecomerce.png';
+import dashboard from '../assets/dashboard.png';
+import weather from '../assets/weather_app.png';
+import Doctor from '../assets/Doctor.png';
+import Move from '../assets/move.png';
+import Quiz from '../assets/Quiz.jpeg';
+import Signal from '../assets/signal.png';
+import Budget from '../assets/budjet.jpeg';
+import Counter from '../assets/counter.png';
+import Calculator from '../assets/calculator.png';
+import Todo from '../assets/todo.png';
+import Background from '../assets/background.jpeg';
+import Toggle from "../assets/Toogle.png"
+import Chat from "../assets/Chat-App.jpg"
+import Clock from "../assets/Clock.jpg"
+import Mobile_ecomerce from "../assets/Mobile_Acce.png"
+import Saloon from "../assets/Saloon.png"
+import Uk_Odering from "../assets/Ukodering.png"
+import Burger from "../assets/BurgerImage.png"
+import Resturent from "../assets/Resturent.png"
+import Bur from "../assets/Bur.png"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

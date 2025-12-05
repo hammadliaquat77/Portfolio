@@ -9,8 +9,8 @@ import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 
-import pic from '../../public/express.png';
-import Hammad from '../../public/HammadSocial.jpg';
+import pic from '../assets/express.png';
+import Hammad from '../assets/HammadSocial.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

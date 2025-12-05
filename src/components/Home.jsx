@@ -8,7 +8,9 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+
 import pic from '../../public/express.png';
+import Hammad from '../../public/HammadSocial.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -89,7 +91,7 @@ function Home() {
                     </div>
                     {/* Image */}
                     <div data-aos="fade-left" className='md:w-1/2  md:ml-48 md:mt-20 order-1 mt-8'>
-                        <img src={pic} alt="" className='rounded-full md:h-[450px] md:w-[450px]' />
+                        <img src={Hammad} alt="" className='rounded-full md:h-[450px] md:w-[450px]' />
                     </div>
                 </div>
             </div>

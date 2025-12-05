@@ -7,6 +7,8 @@ import react from '../../public/react.png'
 import Next from '../../public/next.png'
 import Mongodb from '../../public/mongo.png'
 import Tailwind from '../../public/tailwind.png'
+import Node_js from '../../public/Node.js.png'
+import Express from '../../public/Express.js.png'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -60,6 +62,16 @@ function Experiance() {
             id: 8,
             logo: Mongodb,
             name: "MongoDB",
+        },
+        {
+            id: 9,
+            logo: Node_js,
+            name: "Node.js",
+        },
+        {
+            id: 10,
+            logo: Express,
+            name: "Express.js",
         },
     ];
     return (

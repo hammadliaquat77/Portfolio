@@ -8,6 +8,8 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Porttfolio from './components/Porttfolio';
 
+
+
 function App() {
 
   return (

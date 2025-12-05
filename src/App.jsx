@@ -8,12 +8,15 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Porttfolio from './components/Porttfolio';
 
-
+import { DarkModeProvider } from './context/DarkModeContext';
 
 function App() {
 
+
   return (
   <>
+  <DarkModeProvider>
+
   <div>
   <Navbar/>
   <Home/>
@@ -24,6 +27,7 @@ function App() {
   <Footer/>
   </div>
   <Toaster/>
+  </DarkModeProvider>
 
 </>
   )

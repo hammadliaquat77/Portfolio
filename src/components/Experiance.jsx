@@ -76,7 +76,7 @@ function Experiance() {
     ];
     return (
         <>
-            <div name='Experiance' className='max-w-screen-2xl mx-auto container px-4 md:px-20 py-16 dark:bg-slate-900 dark:text-white'>
+            <div name='Experience' className='max-w-screen-2xl mx-auto container px-4 md:px-20 py-16 dark:bg-slate-900 dark:text-white'>
                 <h1 className='text-3xl font-bold mb-5 text-center md:text-left'>Experiance</h1>
                 <p>I have more than half year of Experiance in below technologies.</p>
 

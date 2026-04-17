@@ -22,8 +22,9 @@ function About() {
         <div className='flex flex-col md:flex-row'>
           <div data-aos="fade-up" className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-1 md:order-1'>
             <p className='text-sm md:text-xl text-justify'>
-            <p className='text-sm md:text-xl text-justify'>My name is Hammad Liaquat, and I am a Mern Stack Developer with education up to the BSC Computer Science. I have started my career as a Mern Stack Developer and have worked with several essential technologies required for the role, including.
-              I have some experience with React Native. I am eager to grow and plan to become a Full-Stack Developer in the near future.:</p>
+            <p className='text-sm md:text-xl text-justify'>My name is Hammad Raza, and I am a MERN Stack Developer with a background in BSc Computer Science. I have begun my professional journey in web development, working with core technologies including MongoDB, Express.js, React.js, and Node.js. I also have foundational experience in React Native for mobile application development.
+
+I am passionate about building modern, scalable web applications and continuously improving my technical skills. I am highly motivated to grow as a Full-Stack Developer and contribute effectively to innovative development teams.</p>
             <br />
               </p>
             <br />

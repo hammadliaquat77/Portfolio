@@ -45,7 +45,7 @@ function Home() {
                         </div>
                         <br />
                         <p className='text-sm md:text-xl text-justify'>
-                            My name is Hammad Liaquat, and I am a Frontend Developer with education up to the BSC Computer Science. I have started my career as a Frontend Developer and have worked with several essential technologies required for the role, including.
+                            My name is Hammad Liaquat, and I am a MERN Stack Developer with a background in BSc Computer Science. I have started my career as a MERN Stack Developer, working with core technologies including MongoDB, Express.js, React.js, and Node.js to build dynamic and scalable web applications.
                         </p>
                         <br />
 

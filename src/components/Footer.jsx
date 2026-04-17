@@ -26,7 +26,7 @@ function Footer() {
               </a>
             </div>
             <div className='flex flex-col items-center mt-8 border-t border-gray-700 pt-8'>
-              <p className='text-center'>&copy; 2024 Your Company. All rights reserved.</p>
+              <p className='text-center'>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
               <p className='text-center'>hammadraza9391@gmail.com</p>
               <p className="text-sm ">Supportive Partner ❤️ Hammad Raza</p>
             </div>

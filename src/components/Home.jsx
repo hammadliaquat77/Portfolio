@@ -175,8 +175,15 @@ function Home() {
                             </a> */}
 
                            
-                            <button
+                            {/* <button
                                 onClick={() => window.open("/hammad_raza_mernstack.pdf", "_blank")}
+                                className="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-600 hover:text-white duration-200"
+                            >
+                                Hire Me
+                            </button> */}
+
+                            <button
+                                onClick={() => window.open("/HAMMAD-RAZA_Dev.pdf", "_blank")}
                                 className="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-600 hover:text-white duration-200"
                             >
                                 Hire Me
